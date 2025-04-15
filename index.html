@@ -2,14 +2,15 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>연세 여동문의 날 포스터</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500;700&display=swap');
 
     body {
       font-family: 'Noto Serif KR', serif;
-      background: linear-gradient(to bottom, #f0f4f8, #ffffff);
-      padding: 60px 20px;
+      background-color: #ffffff;
+      padding: 40px 20px;
       text-align: center;
       color: #00376D;
     }
@@ -23,26 +24,27 @@
     }
 
     h1 {
-      font-size: 2.8em;
+      font-size: 2.4em;
       color: #00376D;
       margin-bottom: 0.2em;
     }
 
     h2 {
-      font-size: 1.5em;
+      font-size: 1.3em;
       color: #b49100;
       margin-bottom: 2em;
     }
 
     .info {
-      font-size: 1.1em;
+      font-size: 1em;
       line-height: 1.8;
       color: #333;
-      background-color: #ffffffcc;
+      background-color: #f0f4f8;
       display: inline-block;
       padding: 20px 30px;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      max-width: 90%;
     }
 
     .highlight {
@@ -50,10 +52,33 @@
       font-weight: bold;
     }
 
+    .account {
+      font-size: 0.9em;
+      color: #444;
+    }
+
     .footer {
       margin-top: 3em;
       font-size: 1em;
       color: #555;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 2.8em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      .info {
+        font-size: 1.1em;
+      }
+
+      .account {
+        font-size: 1em;
+      }
     }
   </style>
 </head>
@@ -73,8 +98,8 @@
     연세대학교 총장공관 뜰<br><br>
 
     💰 <span class="highlight">참가비</span><br>
-    8만원 <br>
-    카카오뱅크 7979-93-65269 (예금주: 나사라)<br><br>
+    8만원<br>
+    <span class="account">카카오뱅크 7979-93-65269 (예금주: 나사라)</span><br><br>
 
     👗 <span class="highlight">드레스코드</span><br>
     블루 & 골드
